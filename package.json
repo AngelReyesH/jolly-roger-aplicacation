@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "npm install --legacy-peer-deps && npm install &&ng build --prod"
+    "heroku-postbuild": "cd jolly-roger-aplicacation && npm install --only=dev && npm install && ng build --prod"
 
   },
   "private": true,
