@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { user } from 'src/app/models/User';
 import { GeneralService } from 'src/app/services/general.service';
 
@@ -10,9 +10,10 @@ import { GeneralService } from 'src/app/services/general.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private service: GeneralService,private router:Router) { }
+  constructor(private service: GeneralService,private router:Router,private route: ActivatedRoute) { }
   title:any;
   user =this.service.getUser();
+ 
   leftContent = [
     { description: 'Inicio', isTitle: true },
     { description: 'Empleados', route: this.router.navigate(['/home/empleados',{id:this.user.id}])},
