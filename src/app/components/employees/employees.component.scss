@@ -1,3 +1,6 @@
+.container-fluid{
+    z-index: 99999;
+}
 .card,table{
     padding: 1%;
    
@@ -12,7 +15,6 @@
     box-shadow: -2px 2px 15px -8px #000000;
     width: 70%;
     margin-left: 15%; 
-    margin-top: -15%; 
 }
 .col-md-6{
     width: 50%;

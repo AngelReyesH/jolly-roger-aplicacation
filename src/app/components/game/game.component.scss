@@ -1,7 +1,10 @@
-.container{
-    margin-top: -15%;
+.container-fluid{
+    z-index: 99999;
     margin-left: 5%;
+    
+
 }
+
 .space{
     height: 150px;
     width: 150px;
@@ -10,6 +13,9 @@
     color: black;
     -webkit-box-shadow: -2px 2px 15px -8px #000000; 
     box-shadow: -2px 2px 15px -8px #000000;
+    position: relative;
+    z-index: 1;
+
 }
 .title{
     text-align: center;

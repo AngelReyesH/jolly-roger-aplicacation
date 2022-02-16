@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { GeneralService } from 'src/app/services/general.service';
 
 @Component({
@@ -15,8 +15,8 @@ export class HomeComponent implements OnInit {
 
   leftContent = [
     { description: 'Inicio', isTitle: true },
-    { description: 'Empleados', route:'home/empleados/'+this.user.id},
-    { description: 'Tic Tac Toe',route: 'home/game/'+this.user.id},
+    { description: 'Empleados', route: 'home/empleados/'+(this.user ? this.user.id : "0")+""},
+    { description: 'Tic Tac Toe',route: 'home/game/'+(this.user ? this.user.id : "0")+""},
     { description: 'none', isTitle: false },
     { description: 'none', isTitle: false},
     { description: 'Cerrar Sesion', route: '/login'}

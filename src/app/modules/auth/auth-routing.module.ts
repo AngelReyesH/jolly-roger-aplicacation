@@ -4,10 +4,7 @@ import { AuthenticationComponent } from 'src/app/components/authentication/authe
 import { LoginComponent } from '@next/nx-core';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: LoginComponent
-  }
+ 
 ];
 
 @NgModule({
