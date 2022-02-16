@@ -11,7 +11,7 @@
                 <div class="col-md-6">
                   <div class="mb-3">
                     <label for="brm" class="form-label">BRM</label><br>
-                    <input *ngIf="employeeUpdate==null" type="text" ngModel name="brm"  id="brm" placeholder="Ingresa un BRM" >
+                    <input *ngIf="employeeUpdate==null" type="text" ngModel name="brm"  id="brm" placeholder="Ingresa un BRM">
                     <input *ngIf="employeeUpdate!=null" type="text" ngModel={{employeeUpdate.brm}} name="brm"  id="brm">
                   </div>
                   <div class="mb-3">
