@@ -1,0 +1,33 @@
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 offset-4">
+       <h1>Login</h1>
+        <form #f="ngForm" (ngSubmit)="login(f)">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <label for="user" >Usuario</label><br>
+                  <input  type="text" ngModel name="user"  id="user" placeholder="usario o correo">
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="password" >Contraceña</label><br>
+                  <input  type="password" ngModel name="password"  id="password" placeholder="Ingresa tu contraceña">
+                </div>
+               
+              </div>
+            </div>
+
+          </div>
+          <button class="dark" >Ingresar</button>
+
+        </form>
+      </div>
+    
+    </div>
+
+
+  </div>
+</div>

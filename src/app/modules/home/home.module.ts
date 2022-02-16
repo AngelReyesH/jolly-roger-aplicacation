@@ -9,11 +9,11 @@ import { FrameworkModule } from '@next/nx-core';
 import { CommonsModule } from '@next/nx-controls-common';
 
 const config = {
-  usernameLabel: 'BRM',
-  usernamePlaceholder: 'Usuario',
+  usernameLabel: 'Usuario / Email',
+  usernamePlaceholder: 'Usuario / Email',
   endpoint: '/api',
-  application: 'BANREGIOWEBAPP',
-  applicationTitle: 'Banregio Web App'
+  application: 'BANREGIO',
+  applicationTitle: 'Login'
 };
 
 

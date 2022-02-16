@@ -7,11 +7,11 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { FrameworkModule } from '@next/nx-core';
 
 const config = {
-  usernameLabel: 'BRM',
-  usernamePlaceholder: 'Usuario',
-  endpoint: '/api',
-  application: 'BANREGIOWEBAPP',
-  applicationTitle: 'Banregio Web App'
+  usernameLabel: 'Usuario / Email',
+  usernamePlaceholder: 'usuaio o email',
+  endpoint: '',
+  application: 'BANREGIO',
+  applicationTitle: 'Login '
 };
 
 
