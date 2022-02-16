@@ -1,0 +1,20 @@
+{
+  "/seguridad": {
+    "target": "https://seguridad-neco.brmdocp.banregio.com/",
+    "secure": false,
+    "logLevel": "debug",
+    "pathRewrite": {
+        "^/seguridad": ""
+    },
+    "changeOrigin": true
+  },
+  "/consulta/": {
+    "target": "https://consulta-neco.brmdocp.banregio.com/",
+    "secure": false,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/login/": ""
+    },
+    "changeOrigin": true
+  }
+}
