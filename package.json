@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "npm-install-peers",
-    "heroku-postbuild": "npm install --legacy--peer-deps && ng build --prod"
+    "heroku-postbuild": "npm install --legacy--peer-deps"
   },
   "private": true,
   "dependencies": {
