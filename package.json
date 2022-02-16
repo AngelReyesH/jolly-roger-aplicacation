@@ -1,11 +1,10 @@
 {
   "name": "nx-getting-started-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "node --max-old-space-size=8192 ./node_modules/@angular/cli/bin/ng build --prod --aot --build-optimizer && rm -rf node_modules/ src/ e2e/ *.md",
-    "launch": "mv ocp/*.js ./ && rm *.json && nodemon i.js",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
