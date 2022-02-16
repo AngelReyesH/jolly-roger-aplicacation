@@ -5,7 +5,7 @@ const app = express();
 
 const port = process.env.PORT || 8080;
 
-app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, 'nx-getting-started-ui')));
 
 app.get('/', (req, res) => {
     res.send('Invalid endpoint');
