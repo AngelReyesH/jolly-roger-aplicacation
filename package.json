@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "npm-install-peers",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "npm config set registry=https://nexus-cicd.brmdocp.banregio.com/repository/next-npm-central/ && ng build --prod"
   },
   "private": true,
   "dependencies": {
